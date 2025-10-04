@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Types>
-		<Row Type="TRAIT_ONE_CITY_SCENARIO_ABILITY" Kind="KIND_TRAIT"/>
-	</Types>
-	<Traits>
-		<Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" InternalOnly="true"/>
-	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_SETTLEMENT_CAP_MO"/>
-        <Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_SPECIALIST_CAP_MO"/>
+		<Row TraitType="TRAIT_MODERN_CIV" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
+        <Row TraitType="TRAIT_MODERN_CIV" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
+        <Row TraitType="TRAIT_MODERN_CIV" ModifierId="MOD_OCS_SETTLEMENT_CAP_MO"/>
+        <Row TraitType="TRAIT_MODERN_CIV" ModifierId="MOD_OCS_SPECIALIST_CAP_MO"/>
 	</TraitModifiers>
-    <CivilizationTraits>
-        <!-- Modern Civs -->
-		<Row CivilizationType="CIVILIZATION_AMERICA" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_BUGANDA" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_FRENCH_EMPIRE" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_MEIJI" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_MEXICO" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_MUGHAL" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_PRUSSIA" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_QING" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_RUSSIA" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_SIAM" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-	</CivilizationTraits>
 </Database>

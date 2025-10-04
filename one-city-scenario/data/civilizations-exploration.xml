@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Types>
-		<Row Type="TRAIT_ONE_CITY_SCENARIO_ABILITY" Kind="KIND_TRAIT"/>
-	</Types>
-	<Traits>
-		<Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" InternalOnly="true"/>
-	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
-        <Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
+		<Row TraitType="TRAIT_EXPLORATION_CIV" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
+        <Row TraitType="TRAIT_EXPLORATION_CIV" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
+        <Row TraitType="TRAIT_EXPLORATION_CIV" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
+        <Row TraitType="TRAIT_EXPLORATION_CIV" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
 	</TraitModifiers>
-    <CivilizationTraits>
-        <!-- Exploration Civs -->
-		<Row CivilizationType="CIVILIZATION_ABBASID" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_CHOLA" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_HAWAII" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_INCA" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_MAJAPAHIT" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_MING" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_MONGOLIA" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_NORMAN" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_SONGHAI" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_SPAIN" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-	</CivilizationTraits>
 </Database>

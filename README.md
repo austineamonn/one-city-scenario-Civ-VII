@@ -2,7 +2,7 @@
 
 Author: Austin Nicolas
 
-Version: 1.0
+Version: 1.1
 
 ## Current Mod:
 
@@ -23,4 +23,4 @@ AI will change capitals, giving them a second city each era.
 
 ## Latest Update:
 
-Fixed modern issues.
+Rewrote code for efficiency. Now works for modded and DLC civs (and will work for future releases automatically).
