@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="one-city-scenario" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_ONE_CITY_SCENARIO_NAME</Name>
+		<Description>LOC_MODULE_ONE_CITY_SCENARIO_DESCRIPTION</Description>
+		<Authors>Austin Nicolas</Authors>
+		<AffectsSavedGames>1</AffectsSavedGames>
+	</Properties>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<!-- Base Civilizations -->
+		<ActionGroup id="antiquity-game" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-antiquity.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/CivilizationsText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="exploration-game" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="modern-game" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/civilizations-modern.xml</Item>
+					<Item>data/civilizations-gameeffects.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

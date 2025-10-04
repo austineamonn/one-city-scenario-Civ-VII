@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--<Row Tag="LOC_TRAIT_ONE_CITY_SCENARIO_ABILITY_NAME">
+			<Text>One City Scenario</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ONE_CITY_SCENARIO_ABILITY_DESCRIPTION">
+			<Text>Towns cannot use convert to City. Settlers have +1 Movement. +2 Settlement Limit per Era. +1 Specialist Cap per Era.</Text>
+		</Row>
+        <Row Tag="LOC_MOD_OCS_FORBID_CITIES_FROM_TOWNS_DESCRIPTION">
+			<Text>Towns cannot use convert to City.</Text>
+		</Row>
+        <Row Tag="LOC_MOD_OCS_SETTLER_MOVEMENT_DESCRIPTION">
+			<Text>Settlers have +1 Movement.</Text>
+		</Row>
+        <Row Tag="LOC_MOD_OCS_SETTLEMENT_CAP_AQ_DESCRIPTION">
+			<Text>+2 Settlement Limit.</Text>
+		</Row>
+        <Row Tag="LOC_MOD_OCS_SETTLEMENT_CAP_EX_DESCRIPTION">
+			<Text>+4 Settlement Limit.</Text>
+		</Row>
+        <Row Tag="LOC_MOD_OCS_SETTLEMENT_CAP_MO_DESCRIPTION">
+			<Text>+4 Settlement Limit.</Text>
+		</Row>
+        <Row Tag="LOC_MOD_OCS_SPECIALIST_CAP_AQ_DESCRIPTION">
+			<Text>+1 Specialist Cap.</Text>
+		</Row>
+        <Row Tag="LOC_MOD_OCS_SPECIALIST_CAP_EX_DESCRIPTION">
+			<Text>+1 Specialist Cap.</Text>
+		</Row>
+        <Row Tag="LOC_MOD_OCS_SPECIALIST_CAP_MO_DESCRIPTION">
+			<Text>+1 Specialist Cap.</Text>
+		</Row>-->
+	</EnglishText>
+</Database>

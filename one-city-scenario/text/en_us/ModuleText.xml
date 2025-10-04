@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_ONE_CITY_SCENARIO_NAME">
+			<Text>One City Scenario</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_ONE_CITY_SCENARIO_DESCRIPTION">
+			<Text>Race to settle the entire world and build the Strongest and Largest Capital City. Towns cannot use convert to City. Settlers have +1 Movement. +2 Settlement Limit per Era. +1 Specialist Cap per Era.</Text>
+		</Row>
+	</EnglishText>
+</Database>
