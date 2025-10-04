@@ -7,60 +7,14 @@
 		<Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" InternalOnly="true"/>
 	</Traits>
 	<TraitModifiers>
-        <!-- Aksum -->
-		<Row TraitType="TRAIT_AKSUM" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_AKSUM" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_AKSUM" ModifierId="MOD_OCS_SETTLEMENT_CAP_AQ"/>
-        <Row TraitType="TRAIT_AKSUM" ModifierId="MOD_OCS_SPECIALIST_CAP_AQ"/>
-        <!-- Egypt -->
-		<Row TraitType="TRAIT_EGYPT" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_EGYPT" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_EGYPT" ModifierId="MOD_OCS_SETTLEMENT_CAP_AQ"/>
-        <Row TraitType="TRAIT_EGYPT" ModifierId="MOD_OCS_SPECIALIST_CAP_AQ"/>
-        <!-- Greece -->
-		<Row TraitType="TRAIT_GREECE" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_GREECE" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_GREECE" ModifierId="MOD_OCS_SETTLEMENT_CAP_AQ"/>
-        <Row TraitType="TRAIT_GREECE" ModifierId="MOD_OCS_SPECIALIST_CAP_AQ"/>
-        <!-- Han -->
-		<Row TraitType="TRAIT_HAN" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_HAN" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_HAN" ModifierId="MOD_OCS_SETTLEMENT_CAP_AQ"/>
-        <Row TraitType="TRAIT_HAN" ModifierId="MOD_OCS_SPECIALIST_CAP_AQ"/>
-        <!-- Khmer -->
-		<Row TraitType="TRAIT_KHMER" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_KHMER" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_KHMER" ModifierId="MOD_OCS_SETTLEMENT_CAP_AQ"/>
-        <Row TraitType="TRAIT_KHMER" ModifierId="MOD_OCS_SPECIALIST_CAP_AQ"/>
-        <!-- Maurya -->
-		<Row TraitType="TRAIT_MAURYA" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_MAURYA" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_MAURYA" ModifierId="MOD_OCS_SETTLEMENT_CAP_AQ"/>
-        <Row TraitType="TRAIT_MAURYA" ModifierId="MOD_OCS_SPECIALIST_CAP_AQ"/>
-        <!-- Maya -->
-		<Row TraitType="TRAIT_MAYA" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_MAYA" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_MAYA" ModifierId="MOD_OCS_SETTLEMENT_CAP_AQ"/>
-        <Row TraitType="TRAIT_MAYA" ModifierId="MOD_OCS_SPECIALIST_CAP_AQ"/>
-        <!-- Mississipian -->
-		<Row TraitType="TRAIT_MISSISSIPPIAN" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_MISSISSIPPIAN" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_MISSISSIPPIAN" ModifierId="MOD_OCS_SETTLEMENT_CAP_AQ"/>
-        <Row TraitType="TRAIT_MISSISSIPPIAN" ModifierId="MOD_OCS_SPECIALIST_CAP_AQ"/>
-        <!-- Persia -->
-		<Row TraitType="TRAIT_PERSIA" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_PERSIA" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_PERSIA" ModifierId="MOD_OCS_SETTLEMENT_CAP_AQ"/>
-        <Row TraitType="TRAIT_PERSIA" ModifierId="MOD_OCS_SPECIALIST_CAP_AQ"/>
-        <!-- Rome -->
-		<Row TraitType="TRAIT_ROME" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_ROME" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_ROME" ModifierId="MOD_OCS_SETTLEMENT_CAP_AQ"/>
-        <Row TraitType="TRAIT_ROME" ModifierId="MOD_OCS_SPECIALIST_CAP_AQ"/>
+		<Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
+        <Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
+        <Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_SETTLEMENT_CAP_AQ"/>
+        <Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_SPECIALIST_CAP_AQ"/>
 	</TraitModifiers>
     <CivilizationTraits>
         <!-- Antiquity Civs -->
-        <!-- <Row CivilizationType="CIVILIZATION_AKSUM" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
+        <Row CivilizationType="CIVILIZATION_AKSUM" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
         <Row CivilizationType="CIVILIZATION_EGYPT" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
         <Row CivilizationType="CIVILIZATION_GREECE" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
         <Row CivilizationType="CIVILIZATION_HAN" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
@@ -69,6 +23,6 @@
         <Row CivilizationType="CIVILIZATION_MAYA" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
         <Row CivilizationType="CIVILIZATION_MISSISSIPPIAN" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
         <Row CivilizationType="CIVILIZATION_PERSIA" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_ROME" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/> -->
+        <Row CivilizationType="CIVILIZATION_ROME" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
 	</CivilizationTraits>
 </Database>

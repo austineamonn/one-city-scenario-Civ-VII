@@ -17,7 +17,8 @@
 			</Requirement>
 			<Requirement type="REQUIREMENT_GAME_IS_STARTED"/>
 		</SubjectRequirements>
-		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+		<Argument name="Amount">5</Argument>
+		<Argument name="Minimum">true</Argument>
 	</Modifier>
     <Modifier id="MOD_OCS_SETTLEMENT_CAP_EX" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" permanent="true">
         <SubjectRequirements>
@@ -26,7 +27,8 @@
 			</Requirement>
 			<Requirement type="REQUIREMENT_GAME_IS_STARTED"/>
 		</SubjectRequirements>
-		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+		<Argument name="Amount">12</Argument>
+		<Argument name="Minimum">true</Argument>
 	</Modifier>
     <Modifier id="MOD_OCS_SETTLEMENT_CAP_MO" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" permanent="true">
         <SubjectRequirements>
@@ -35,7 +37,8 @@
 			</Requirement>
 			<Requirement type="REQUIREMENT_GAME_IS_STARTED"/>
 		</SubjectRequirements>
-		<Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+		<Argument name="Amount">22</Argument>
+		<Argument name="Minimum">true</Argument>
 	</Modifier>
     <Modifier id="MOD_OCS_SPECIALIST_CAP_AQ" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_CAP" permanent="true">
         <OwnerRequirements>

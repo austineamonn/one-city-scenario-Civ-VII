@@ -7,60 +7,14 @@
 		<Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" InternalOnly="true"/>
 	</Traits>
 	<TraitModifiers>
-        <!-- Abbasid -->
-		<Row TraitType="TRAIT_ABBASID" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_ABBASID" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_ABBASID" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
-        <Row TraitType="TRAIT_ABBASID" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
-        <!-- Chola -->
-		<Row TraitType="TRAIT_CHOLA" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_CHOLA" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_CHOLA" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
-        <Row TraitType="TRAIT_CHOLA" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
-        <!-- Hawai'i -->
-		<Row TraitType="TRAIT_HAWAII" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_HAWAII" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_HAWAII" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
-        <Row TraitType="TRAIT_HAWAII" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
-        <!-- Inca -->
-		<Row TraitType="TRAIT_INCA" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_INCA" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_INCA" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
-        <Row TraitType="TRAIT_INCA" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
-        <!-- Majapahit -->
-		<Row TraitType="TRAIT_MAJAPAHIT" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_MAJAPAHIT" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_MAJAPAHIT" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
-        <Row TraitType="TRAIT_MAJAPAHIT" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
-        <!-- Ming -->
-		<Row TraitType="TRAIT_MING" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_MING" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_MING" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
-        <Row TraitType="TRAIT_MING" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
-        <!-- Mongolia -->
-		<Row TraitType="TRAIT_MONGOLIA" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_MONGOLIA" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_MONGOLIA" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
-        <Row TraitType="TRAIT_MONGOLIA" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
-        <!-- Norman -->
-		<Row TraitType="TRAIT_NORMAN" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_NORMAN" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_NORMAN" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
-        <Row TraitType="TRAIT_NORMAN" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
-        <!-- Songhai -->
-		<Row TraitType="TRAIT_SONGHAI" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_SONGHAI" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_SONGHAI" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
-        <Row TraitType="TRAIT_SONGHAI" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
-        <!-- Spain -->
-		<Row TraitType="TRAIT_SPAIN" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
-        <Row TraitType="TRAIT_SPAIN" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
-        <Row TraitType="TRAIT_SPAIN" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
-        <Row TraitType="TRAIT_SPAIN" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
+		<Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_FORBID_CITIES_FROM_TOWNS"/>
+        <Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_SETTLER_MOVEMENT"/>
+        <Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_SETTLEMENT_CAP_EX"/>
+        <Row TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY" ModifierId="MOD_OCS_SPECIALIST_CAP_EX"/>
 	</TraitModifiers>
     <CivilizationTraits>
         <!-- Exploration Civs -->
-		<!--<Row CivilizationType="CIVILIZATION_ABBASID" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_ABBASID" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
         <Row CivilizationType="CIVILIZATION_CHOLA" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
         <Row CivilizationType="CIVILIZATION_HAWAII" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
         <Row CivilizationType="CIVILIZATION_INCA" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
@@ -69,6 +23,6 @@
         <Row CivilizationType="CIVILIZATION_MONGOLIA" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
         <Row CivilizationType="CIVILIZATION_NORMAN" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
         <Row CivilizationType="CIVILIZATION_SONGHAI" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
-        <Row CivilizationType="CIVILIZATION_SPAIN" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>-->
+        <Row CivilizationType="CIVILIZATION_SPAIN" TraitType="TRAIT_ONE_CITY_SCENARIO_ABILITY"/>
 	</CivilizationTraits>
 </Database>
